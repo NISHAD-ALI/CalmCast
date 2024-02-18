@@ -1,0 +1,30 @@
+.maindiv{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(236, 236, 237);
+    background-image: url('/clouds-4040132_1920.jpg');
+    object-fit: contain;
+}
+.mainCard{
+    width: 100%;
+    height: 300px;
+   
+    display:flex ;
+    flex-direction:row;
+    justify-content:space-around;
+    padding-top: 100px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    padding: 60px;
+   
+}
+.temp{
+    color: rgb(104, 48, 33);
+    font-weight: 600;
+   
+}
+.wind{
+    font-size: 12px;
+}
